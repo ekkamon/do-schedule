@@ -1,0 +1,204 @@
+[
+    {
+        "Monday": [
+            {
+                "teacher": "ครูธวัชชัย",
+                "subject_id": "ว30104",
+                "meet_id": "kxk-ynzn-ymv",
+                "start": "08:30",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูฝรั่ง 2",
+                "subject_id": "อ32203",
+                "meet_id": "aej-vpbs-vyt",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูนเรศ",
+                "subject_id": "ท32101",
+                "meet_id": "qfg-rmam-fdm",
+                "start": "10:45",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูนุศรา",
+                "subject_id": "ส32101",
+                "meet_id": "ndt-ghgz-hoe",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูปภัสชญา",
+                "subject_id": "ค32201",
+                "meet_id": "tea-uxfk-zpu",
+                "start": "13:00",
+                "end": "13:40"
+            },
+            {
+                "teacher": "ครูสันสุนีย์",
+                "subject_id": "ว30242",
+                "meet_id": "rdr-szjk-mtj",
+                "start": "13:45",
+                "end": "15:10"
+            }
+        ],
+        
+        "Tuesday": [
+            {
+                "teacher": "ครูพรเทพ",
+                "subject_id": "ว30222",
+                "meet_id": "kdc-tnts-wgp",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูเสาวนีย์",
+                "subject_id": "อ32101",
+                "meet_id": "yxh-rvix-gnr",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูกิตติมา",
+                "subject_id": "ค32101",
+                "meet_id": "oxr-mkqu-szz ",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูสันสุนีย์",
+                "subject_id": "ว30242",
+                "meet_id": "rdr-szjk-mtj",
+                "start": "10:45",
+                "end": "11:25"
+            }
+        ],
+        "Wednesday" : [
+            {
+                "teacher": "ครูชลนที",
+                "subject_id": "ว30202",
+                "meet_id": "mrw-kzhz-qvc",
+                "start": "08:30",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูทศพร",
+                "subject_id": "ศ32101",
+                "meet_id": "eoj-jeos-tsy",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูสุรพล",
+                "subject_id": "พ32101",
+                "meet_id": "eem-kihh-jio",
+                "start": "10:45",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูปภัสชญา",
+                "subject_id": "ค32201",
+                "meet_id": "tea-uxfk-zpu",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูธวัชชัย",
+                "subject_id": "ว30104",
+                "meet_id": "kxk-ynzn-ymv",
+                "start": "13:00",
+                "end": "13:40"
+            },
+            {
+                "teacher": "ครูนเรศ",
+                "subject_id": "ท32101",
+                "meet_id": "qfg-rmam-fdm",
+                "start": "13:45",
+                "end": "14:25"
+            }
+        ],
+        "Thursday" : [
+            {
+                "teacher": "ครูกิตติมา",
+                "subject_id": "ค32101",
+                "meet_id": "oxr-mkqu-szz",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูเสาวนีย์",
+                "subject_id": "อ32101",
+                "meet_id": "yxh-rvix-gnr",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูรัชณีวัลย์",
+                "subject_id": "ว30105",
+                "meet_id": "ysj-dzhi-hme",
+                "start": "10:00",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูพรเทพ",
+                "subject_id": "ว30222",
+                "meet_id": "kdc-tnts-wgp",
+                "start": "12:15",
+                "end": "13:40"
+            },
+            {
+                "teacher": "ครูนุศรา",
+                "subject_id": "ส32101",
+                "meet_id": "ndt-ghgz-hoe",
+                "start": "13:45",
+                "end": "14:25"
+            }
+        ],
+        "Friday" : [
+            {
+                "teacher": "Home Room",
+                "subject_id": "homeroom",
+                "meet_id": "",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูปภัสชญา",
+                "subject_id": "ค32201",
+                "meet_id": "tea-uxfk-zpu",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูชลนที",
+                "subject_id": "ว30202",
+                "meet_id": "mrw-kzhz-qvc",
+                "start": "10:00",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูสุพัชฌา",
+                "subject_id": "จ30213",
+                "meet_id": "ooo-aukt-tus",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูวารุณี",
+                "subject_id": "แนะแนว",
+                "meet_id": "rdh-bpjd-bai",
+                "start": "13:00",
+                "end": "13:40"
+            },
+            {
+                "teacher": "ครูนริสรา",
+                "subject_id": "ส32102",
+                "meet_id": "rqz-iitz-ppc",
+                "start": "13:45",
+                "end": "14:25"
+            }
+        ]
+    }
+]

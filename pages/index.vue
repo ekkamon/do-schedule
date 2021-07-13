@@ -1,0 +1,67 @@
+<template>
+  <div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-xl-4 col-md-6 col-10">
+        <div class="mb-3">
+          <label class="mb-2">โปรดเลือกโรงเรียน</label>
+          <select v-model="schoolName" class="form-select mb-2">
+            <option v-for="(sc, idx) in schoolData" :key="idx" v-bind:value="sc.id">{{ sc.name }}</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="mb-2">โปรเลือกห้องเรียน</label>
+          <select v-model="classRoom" class="form-select mb-2">
+            <option v-for="(rm, idx) in roomData[schoolName]" :key="idx" v-bind:value="idx" >ห้อง {{ rm.toString().replace('0', '/') }}</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <a @click="clickDone" class="btn btn-primary w-100">ดำเนินการต่อ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  layout: 'navbar',
+  data(){
+    return {
+      classRoom: 0,
+      schoolName: 'sksc',
+      schoolData: [
+        {
+          id: 'sksc',
+          name: 'สมุทรสาครวิทยาลัย',
+        },
+        {
+          id: 'pccp',
+          name: 'วิทยาศาสตร์จุฬาภรณราชวิทยาลัย (ปทุมธานี)'
+        }
+      ],
+      roomData: {
+        sksc: [ 502 ],
+        pccp: [ 504 ]
+      }
+    }
+  },
+  methods: {
+    async clickDone(){
+      if(this.schoolName != ''){
+        try{
+          var data = await require(`@/assets/schedule_data/${this.schoolName}/${this.roomData[this.schoolName][this.classRoom]}.json`)
+          if(!data){
+            return this.$swal('Ops...', 'ไม่พบตารางในวันนี้ของคุณ', 'error')
+          }else{
+            location.href = `/schedule/?school=${this.schoolName}&room=${this.roomData[this.schoolName][this.classRoom]}`
+          }
+        }catch{
+          return this.$swal('Ops...', 'ไม่พบคลาสเรียนนี้ในระบบโปรดรอทีมงานอัพเดท', 'error')
+        }
+      }else{
+        return this.$swal('Ops...', 'โปรดเลือกระดับชั้นเเละห้องก่อนเพื่อดำเนินการต่อ', 'error')
+      }
+    }
+  }
+}
+</script>

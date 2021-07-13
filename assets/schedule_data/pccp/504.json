@@ -1,0 +1,123 @@
+[
+    {
+        "Monday": [
+            {
+                "teacher": "ครูสุณิสา/ครูพรพรรณ",
+                "meet_id": "https://meet.google.com/lookup/azbskkffch",
+                "start": "08:30",
+                "end": "09:20"
+            },
+            {
+                "teacher": "ครูศุภาวรรณ",
+                "meet_id": "https://meet.google.com/ubn-qnsg-zye",
+                "start": "09:20",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูวุฒิกร",
+                "meet_id": "https://meet.google.com/lookup/cfudq3je5k",
+                "start": "13:00",
+                "end": "13:50"
+            },
+            {
+                "teacher": "ครูทรรศนพรรณ",
+                "meet_id": "https://meet.google.com/lookup/dmrvntapvj",
+                "start": "13:50",
+                "end": "14:40"
+            },
+            {
+                "teacher": "ครูขุนทอง",
+                "meet_id": "https://meet.google.com/lookup/gnukrax6r7",
+                "start": "16:30",
+                "end": "17:00"
+            }
+        ],
+        
+        "Tuesday": [
+            {
+                "teacher": "ครูขุนทอง",
+                "meet_id": "https://meet.google.com/lookup/buemy66k2a",
+                "start": "08:30",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูพัณณิตา",
+                "meet_id": "https://meet.google.com/lookup/dcallxafou",
+                "start": "10:20",
+                "end": "12:00"
+            },
+            {
+                "teacher": "ครูธีระกาญจน์",
+                "meet_id": "https://meet.google.com/lookup/fy5udwfrwp",
+                "start": "13:00",
+                "end": "14:40"
+            }
+        ],
+        "Wednesday" : [
+            {
+                "teacher": "ครูสุณิสา/ครูพรพรร",
+                "meet_id": "https://meet.google.com/lookup/azbskkffch",
+                "start": "08:30",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูทรรศนพรรณ",
+                "meet_id": "https://meet.google.com/lookup/dmrvntapvj",
+                "start": "10:20",
+                "end": "12:00"
+            },
+            {
+                "teacher": "ครูวัฒนะ/ครูนันธิญา",
+                "meet_id": "https://meet.google.com/lookup/g5v243mlr2",
+                "start": "13:50",
+                "end": "14:40"
+            }
+        ],
+        "Thursday" : [
+            {
+                "teacher": "ครูศุภาวรรณ",
+                "meet_id": "https://meet.google.com/ubn-qnsg-zye",
+                "start": "08:30",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูกัญญาภัค",
+                "meet_id": "https://meet.google.com/lookup/dpp7gtrlfk",
+                "start": "10:20",
+                "end": "12:00"
+            },
+            {
+                "teacher": "ครูครูพัณณิตา",
+                "meet_id": "https://meet.google.com/lookup/dcallxafou",
+                "start": "13:00",
+                "end": "13:50"
+            }
+        ],
+        "Friday" : [
+            {
+                "teacher": "ครูทรรศนพรรณ",
+                "meet_id": "https://meet.google.com/lookup/dmrvntapvj",
+                "start": "08:30",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูธีระกาญจน์",
+                "meet_id": "https://meet.google.com/lookup/fy5udwfrwp",
+                "start": "09:20",
+                "end": "10:10"
+            },
+            {
+                "teacher": "ครูวุฒิกร",
+                "meet_id": "https://meet.google.com/lookup/cfudq3je5k",
+                "start": "10:20",
+                "end": "12:00"
+            },
+            {
+                "teacher": "ครูสมยศ",
+                "meet_id": "https://meet.google.com/lookup/en2xctfsna",
+                "start": "13:50",
+                "end": "15:40"
+            }
+        ]
+    }
+]
