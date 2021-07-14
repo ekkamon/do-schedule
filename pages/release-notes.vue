@@ -1,8 +1,18 @@
 <template>
     <div class="container mt-5">
         <center>
-            <h3><b>Release Version: v1.1.1</b></h3>
+            <h3><b>Release Version: v1.1.2</b></h3>
         </center>
+        <div class="border-bottom mb-3">
+            <h3 class="mb-3"><b>v1.1.2</b></h3>
+            <div class="ms-3">
+                <h5 class="text-uppercase"><b>🎲 Updated</b></h5>
+                <ul>
+                    <li>อัพเดทตารางเรียน หาดใหญ่วิทยาลัยสมบูรณ์กุลกันยา (ห้อง 4/3)</li>
+                </ul>
+                <small class="text-secondary">Date: 14/07/2021</small>
+            </div>
+        </div>
         <div class="border-bottom mb-3">
             <h3 class="mb-3"><b>v1.1.1</b></h3>
             <div class="ms-3">

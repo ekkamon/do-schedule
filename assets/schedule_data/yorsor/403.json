@@ -1,0 +1,123 @@
+[
+    {
+        "Monday": [
+            {
+                "teacher": "ครูอัมพวา",
+                "meet_id": "afr-temu-diy",
+                "start": "08:20",
+                "end": "10:00"
+            },
+            {
+                "teacher": "ครูชัยวุฒิ",
+                "meet_id": "zzq-toxc-cro",
+                "start": "10:00",
+                "end": "10:50"
+            }
+        ],
+        
+        "Tuesday": [
+            {
+                "teacher": "ครูจารุวรรณ",
+                "meet_id": "fkz-rphr-rzk",
+                "start": "08:20",
+                "end": "10:00"
+            },
+            {
+                "teacher": "ครูลม้าย",
+                "meet_id": "rky-ccka-pxm",
+                "start": "12:30",
+                "end": "13:20"
+            },
+            {
+                "teacher": "ครูกนกลดา",
+                "meet_id": "aai-rrqz-arn",
+                "start": "13:20",
+                "end": "14:10"
+            },
+            {
+                "teacher": "ครูปรัชญาพร",
+                "meet_id": "fuh-qhwd-eyo",
+                "start": "14:10",
+                "end": "15:00"
+            }
+        ],
+        "Wednesday" : [
+            {
+                "teacher": "ครูอำไพ",
+                "meet_id": "uau-svxn-veb",
+                "start": "08:20",
+                "end": "10:00"
+            },
+            {
+                "teacher": "ครูฐิติญาณ์",
+                "meet_id": "xoi-otqw-epn",
+                "start": "10:00",
+                "end": "11:40"
+            },
+            {
+                "teacher": "ครูวรัญรดา",
+                "meet_id": "phj-ccee-dwd",
+                "start": "12:30",
+                "end": "13:20"
+            },
+            {
+                "teacher": "ศุภโชค (ไม่มีข้อมูล Meet)",
+                "meet_id": "",
+                "start": "13:20",
+                "end": "15:00"
+            },
+            {
+                "teacher": "ครูสันติ",
+                "meet_id": "hhb-nryk-pxr",
+                "start": "15:00",
+                "end": "15:50"
+            }
+        ],
+        "Thursday" : [
+            {
+                "teacher": "ครูลม้าย",
+                "meet_id": "rky-ccka-pxm",
+                "start": "08:20",
+                "end": "10:00"
+            },
+            {
+                "teacher": "ครูอัมพวา",
+                "meet_id": "afr-temu-diy",
+                "start": "10:00",
+                "end": "10:50"
+            },
+            {
+                "teacher": "ครูสันติ",
+                "meet_id": "hhb-nryk-pxr",
+                "start": "11:40",
+                "end": "13:20"
+            },
+            {
+                "teacher": "ครูกนกลดา",
+                "meet_id": "aai-rrqz-arn",
+                "start": "13:20",
+                "end": "15:00"
+            }
+        ],
+        "Friday" : [
+            {
+                "teacher": "ครูสันติ",
+                "meet_id": "hhb-nryk-pxr",
+                "start": "10:00",
+                "end": "11:42"
+            },
+            {
+                "teacher": "ครูจันทิมา",
+                "meet_id": "hfc-thta-bvq",
+                "start": "12:30",
+                "end": "13:20"
+            },
+            {
+                "teacher": "ครูKonstantin",
+                "meet_id": "rzo-wfqh-xug",
+                "start": "13:20",
+                "end": "14:10"
+            }
+        ]
+    }
+]

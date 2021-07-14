@@ -44,7 +44,8 @@ export default {
   },
   async mounted() {
     var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
-    this.tables = data[0][this.getDayName()]
+    // this.tables = data[0][this.getDayName()]
+    this.tables = data[0]['Friday']
   },
   methods: {
     getDayName(){
