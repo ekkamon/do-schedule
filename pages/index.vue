@@ -11,7 +11,9 @@
         <div class="mb-3">
           <label class="mb-2">โปรเลือกห้องเรียน</label>
           <select v-model="classRoom" class="form-select mb-2">
-            <option v-for="(rm, idx) in roomData[schoolName]" :key="idx" v-bind:value="idx" >ห้อง {{ rm.toString().replace('0', '/') }}</option>
+            <option v-for="(rm, idx) in roomData[schoolName]" :key="idx" v-bind:value="idx">
+              ห้อง {{ rm.toString()[0] }}/{{ rm.toString()[1] != 0 ? rm.toString()[1] + rm.toString()[2] : rm.toString()[2] }}
+            </option>
           </select>
         </div>
         <div class="mb-3">
@@ -44,7 +46,7 @@ export default {
         }
       ],
       roomData: {
-        sksc: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 201, 202, 203, 204, 205, 206, 502],
+        sksc: [ 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 201, 202, 203, 204, 205, 206, 207, 208, 502],
         pccp: [ 504 ],
         yorsor: [ 403 ]
       }
