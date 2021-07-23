@@ -3,8 +3,19 @@
     <div class="row d-flex justify-content-center">
       <h1 class="text-center mb-2"><b>{{ timenow }}</b></h1>
       <p class="text-center mb-2">{{ today }}</p>
-      <p class="text-center text-muted" style="font-size:12px">(อัพเดทล่าสุด 12/07/64 12.00 น.)</p>
       <div class="col-xl-8">
+        <div class="mb-3">
+          <select class="form-select form-select-sm" v-model="thisDay" @change="changeDay">
+            <option value="Sunday">วันอาทิตย์</option>
+            <option value="Monday">วันจันทร์</option>
+            <option value="Tuesday">วันอังคาร</option>
+            <option value="Wednesday">วันพุธ</option>
+            <option value="Thursday">วันพฤหัสบดี</option>
+            <option value="Friday">วันศุกร์</option>
+            <option value="Saturday">วันเสาร์</option>
+          </select>
+        </div>
+        <div v-if="notfound" class="alert alert-danger text-center"><i class="fas fa-exclamation-triangle"></i> ไม่พบตารางเรียนใรวันนี้</div>
         <table class="table table-bordered bg-white">
           <tbody>
             <tr v-for="(sj, index) in tables" :key="index">
@@ -36,7 +47,9 @@ export default {
         weekday: 'long',
       }),
       timenow: '',
-      color_day: ''
+      color_day: '',
+      thisDay: '',
+      notfound: ''
     }
   },
   created(){
@@ -45,6 +58,13 @@ export default {
   async mounted() {
     var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
     this.tables = data[0][this.getDayName()]
+    this.thisDay = this.getDayName()
+
+    if(!this.tables){
+      this.notfound = true;
+    }else{
+      this.notfound = false;
+    }
   },
   methods: {
     getDayName(){
@@ -72,6 +92,16 @@ export default {
         this.timenow = this.getTime()
         this.loopTime()
       }, 1500)
+    },
+    async changeDay(){
+      var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
+      this.tables = data[0][this.thisDay]
+
+      if(!this.tables){
+        this.notfound = true;
+      }else{
+        this.notfound = false;
+      }
     }
   }
 }

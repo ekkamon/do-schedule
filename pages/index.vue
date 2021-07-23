@@ -44,7 +44,7 @@ export default {
         }
       ],
       roomData: {
-        sksc: [ 502 ],
+        sksc: [ 101, 201, 502 ],
         pccp: [ 504 ],
         yorsor: [ 403 ]
       }
