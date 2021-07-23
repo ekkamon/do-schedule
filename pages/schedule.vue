@@ -15,7 +15,7 @@
             <option value="Saturday">วันเสาร์</option>
           </select>
         </div>
-        <div v-if="notfound" class="alert alert-danger text-center"><i class="fas fa-exclamation-triangle"></i> ไม่พบตารางเรียนใรวันนี้</div>
+        <div v-if="notfound" class="alert alert-danger text-center"><i class="fas fa-exclamation-triangle"></i> ไม่พบตารางเรียนในวันนี้</div>
         <table class="table table-bordered bg-white">
           <tbody>
             <tr v-for="(sj, index) in tables" :key="index">
