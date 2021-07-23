@@ -78,6 +78,12 @@
                 "end": "09:55"
             },
             {
+                "teacher": "ครูอังคณา",
+                "meet_id": "ymv-krcu-fbf",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
                 "teacher": "ครูทองจันทร์",
                 "meet_id": "fug-foro-maj",
                 "start": "11:30",
@@ -122,12 +128,6 @@
                 "end": "12:10"
             },
             {
-                "teacher": "ครูอังคณา",
-                "meet_id": "ymv-krcu-fbf",
-                "start": "11:30",
-                "end": "12:10"
-            },
-            {
                 "teacher": "ครูสุนีย์พร",
                 "meet_id": "yuz-bcwh-qvb",
                 "start": "12:15",
@@ -144,7 +144,7 @@
             {
                 "teacher": "Home Room",
                 "meet_id": "",
-                "start": "08.30",
+                "start": "08:30",
                 "end": "09:10"
             },
             {
@@ -158,6 +158,12 @@
                 "meet_id": "yve-miih-tqc",
                 "start": "11:30",
                 "end": "12:10"
+            },
+            {
+                "teacher": "ครูสุนีย์พร",
+                "meet_id": "yuz-bcwh-qvb",
+                "start": "12:15",
+                "end": "12:55"
             },
             {
                 "teacher": "ครูจิราพร",
