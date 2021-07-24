@@ -9,13 +9,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                    <ul class="navbar-nav d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/"><i class="fas fa-home"></i> หน้าหลัก</a>
+                            <a class="nav-link active" href="/"><i class="fas fa-home"></i> Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="/release-notes"><i class="fas fa-map-marker-alt"></i> Release Notes</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/developer"><i class="fas fa-code"></i> Developer Team</a>
                         </li>
                     </ul>
                 </div>

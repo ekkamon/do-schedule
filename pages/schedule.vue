@@ -15,6 +15,10 @@
             <option value="Saturday">วันเสาร์</option>
           </select>
         </div>
+        <div v-if="loading" class="text-center">
+          <h1><i class="fas fa-circle-notch fa-spin"></i></h1>
+          <p>กำลังโหลดข้อมูล</p>
+        </div>
         <div v-if="notfound" class="alert alert-danger text-center"><i class="fas fa-exclamation-triangle"></i> ไม่พบตารางเรียนในวันนี้</div>
         <table class="table table-bordered bg-white">
           <tbody>
@@ -49,10 +53,11 @@ export default {
       timenow: '',
       color_day: '',
       thisDay: '',
-      notfound: ''
+      notfound: '',
+      loading: true
     }
   },
-  created(){
+  async created(){
     this.loopTime()
   },
   async mounted() {
@@ -65,6 +70,8 @@ export default {
     }else{
       this.notfound = false;
     }
+
+    this.loading = false;
   },
   methods: {
     getDayName(){
@@ -102,6 +109,8 @@ export default {
       }else{
         this.notfound = false;
       }
+      
+      this.loading = false;
     }
   }
 }

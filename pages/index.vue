@@ -17,6 +17,14 @@
           </select>
         </div>
         <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" v-model="save" :true-value="true" :checked="save">
+            <label class="form-check-label" for="flexCheckChecked">
+              จำตารางห้องที่เรียน
+            </label>
+          </div>
+        </div>
+        <div class="mb-3">
           <a @click="clickDone" class="btn btn-primary w-100">ดำเนินการต่อ</a>
         </div>
       </div>
@@ -29,6 +37,7 @@ export default {
   layout: 'navbar',
   data(){
     return {
+      save: false,
       classRoom: 0,
       schoolName: 'sksc',
       schoolData: [
@@ -56,8 +65,22 @@ export default {
       }
     }
   },
+  mounted(){
+    this.save = localStorage.getItem('save')
+    this.classRoom = localStorage.getItem('saveRoom') ? localStorage.getItem('saveRoom') : 0
+    this.schoolName = localStorage.getItem('saveSchool') ? localStorage.getItem('saveSchool') : 'sksc'
+  },
   methods: {
     async clickDone(){
+      
+      if(this.save){
+        localStorage.setItem('saveRoom', this.classRoom)
+        localStorage.setItem('saveSchool', this.schoolName)
+        localStorage.setItem('save', true)
+      }else{
+        localStorage.clear()
+      }
+
       if(this.schoolName != ''){
         try{
           var data = await require(`@/assets/schedule_data/${this.schoolName}/${this.roomData[this.schoolName][this.classRoom]}.json`)

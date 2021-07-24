@@ -1,5 +1,8 @@
 export default {
   target: 'static',
+  server: {
+    host: '0.0.0.0'
+  },
   head: {
     title: 'DoSchedule - เว็บไซต์ดูตารางเรียนเเละเข้า Meet อัตโนมัติ',
     htmlAttrs: {
