@@ -19,7 +19,7 @@
                     </ul>
                     <ul class="navbar-nav d-flex">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/developer"><i class="fas fa-code"></i> Developer Team</a>
+                            <a class="nav-link active" href="/developer"><i class="fas fa-code"></i> Developer</a>
                         </li>
                     </ul>
                 </div>
