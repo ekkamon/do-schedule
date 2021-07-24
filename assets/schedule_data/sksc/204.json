@@ -66,8 +66,8 @@
         ],
         "Wednesday" : [
 			{
-                "teacher": "ครูศิริวรรณ(รอข้อมูล)",
-                "meet_id": "",
+                "teacher": "ครูศิริวรรณ",
+                "meet_id": "xsm-zdzx-vsi",
                 "start": "08:30",
                 "end": "09:55"
             },
@@ -133,6 +133,12 @@
                 "teacher": "HOME ROOM",
                 "meet_id": "",
                 "start": "08:30",
+                "end": "09:10"
+            },
+			{
+                "teacher": "ครูจอมใจ",
+                "meet_id": "otg-hcof-xrq",
+                "start": "09:15",
                 "end": "09:55"
             },
 			{
@@ -155,7 +161,7 @@
             },
 			{
                 "teacher": "ครูสมชาย",
-                "meet_id": "",
+                "meet_id": "vhe-njxs-sbd",
                 "start": "13:45",
                 "end": "14:25"
             }

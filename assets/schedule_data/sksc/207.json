@@ -66,8 +66,8 @@
         ],
         "Wednesday" : [
 			{
-                "teacher": "ครูสมชาย(รอข้อมูล)",
-                "meet_id": "",
+                "teacher": "ครูสมชาย",
+                "meet_id": "vhe-njxs-sbd",
                 "start": "08:30",
                 "end": "09:10"
             },
