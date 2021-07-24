@@ -1,0 +1,183 @@
+[
+    {
+        "Monday": [
+            {
+                "teacher": "ครูนุศรา",
+                "meet_id": "ndt-ghgz-hoe",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูวารุณี",
+                "meet_id": "rdh-bpjd-bai",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูกัลยา (วิทย์)",
+                "meet_id": "eoe-stew-dwz",
+                "start": "10:00",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูสำราญ",
+                "meet_id": "yga-gukk-gje",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูชลนที",
+                "meet_id": "mrw-kzhz-qvc",
+                "start": "13:00",
+                "end": "14:25"
+            },
+            {
+                "teacher": "ครูพิทยนันท์",
+                "meet_id": "jjb-korq-ute",
+                "start": "14:30",
+                "end": "15:10"
+            }
+        ],
+        
+        "Tuesday": [
+            {
+                "teacher": "ครูสุรพล",
+                "meet_id": "eem-kihh-jio",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูภานุพงศ์",
+                "meet_id": "dbd-nmep-moo",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูสมภพ",
+                "meet_id": "eex-fcei-edr",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูวันเพ็ญ (Eng)",
+                "meet_id": "rdo-ouat-pgu",
+                "start": "10:45",
+                "end": "11:25"
+            }
+        ],
+        "Wednesday" : [
+            {
+                "teacher": "ครูฝรั่ง 2",
+                "meet_id": "aej-vpbs-vyt",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูสำราญ",
+                "meet_id": "yga-gukk-gje",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูสันสุนีย์",
+                "meet_id": "rdr-szjk-mtj",
+                "start": "10:00",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูสุพัชฌา",
+                "meet_id": "ooo-aukt-tus",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูชลนที",
+                "meet_id": "mrw-kzhz-qvc",
+                "start": "13:00",
+                "end": "14:25"
+            }
+        ],
+        "Thursday" : [
+            {
+                "teacher": "ครูกัลยา (วิทย์)",
+                "meet_id": "eoe-stew-dwz",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูวันเพ็ญ (Eng)",
+                "meet_id": "rdo-ouat-pgu",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูสมภพ",
+                "meet_id": "eex-fcei-edr",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูธวัชชัย",
+                "meet_id": "kxk-ynzn-ymv",
+                "start": "10:45",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูทศพร",
+                "meet_id": "eoj-jeos-tsy",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูนริสรา",
+                "meet_id": "rqz-iitz-ppc",
+                "start": "13:00",
+                "end": "13:40"
+            },
+            {
+                "teacher": "ครูรัชณีวัลย์",
+                "meet_id": "ysj-dzhi-hme",
+                "start": "13:45",
+                "end": "14:25"
+            }
+        ],
+        "Friday" : [
+            {
+                "teacher": "Home Room",
+                "meet_id": "",
+                "start": "08:30",
+                "end": "09:10"
+            },
+            {
+                "teacher": "ครูภานุพงศ์",
+                "meet_id": "dbd-nmep-moo",
+                "start": "09:15",
+                "end": "09:55"
+            },
+            {
+                "teacher": "ครูสำราญ",
+                "meet_id": "yga-gukk-gje",
+                "start": "10:00",
+                "end": "10:40"
+            },
+            {
+                "teacher": "ครูสันสุนีย์",
+                "meet_id": "rdr-szjk-mtj",
+                "start": "10:45",
+                "end": "11:25"
+            },
+            {
+                "teacher": "ครูนุศรา",
+                "meet_id": "ndt-ghgz-hoe",
+                "start": "12:15",
+                "end": "12:55"
+            },
+            {
+                "teacher": "ครูธวัชชัย",
+                "meet_id": "kxk-ynzn-ymv",
+                "start": "13:00",
+                "end": "14:25"
+            }
+        ]
+    }
+]
