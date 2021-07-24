@@ -20,7 +20,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูกัลยา",
+                "teacher": "ครูกัลยา (คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "11:30",
                 "end": "12:10"
@@ -46,7 +46,7 @@
         ],
         "Tuesday": [
 			{
-                "teacher": "ครูกัลยา",
+                "teacher": "ครูกัลยา (คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "08:30",
                 "end": "09:10"
@@ -122,7 +122,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูกัลยา",
+                "teacher": "ครูกัลยา (คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "11:30",
                 "end": "12:10"

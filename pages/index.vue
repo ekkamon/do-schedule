@@ -20,7 +20,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" v-model="save" :true-value="true" :checked="save">
             <label class="form-check-label" for="flexCheckChecked">
-              จำตารางห้องที่เรียน
+              จดจำห้องเรียน
             </label>
           </div>
         </div>
