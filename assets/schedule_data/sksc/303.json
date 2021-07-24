@@ -142,34 +142,28 @@
                 "end": "09:10"
             },
             {
-                "teacher": "ครูชินวัฒน์",
-                "meet_id": "Nyj-idji-ptd",
+                "teacher": "ครูพรทิพย์",
+                "meet_id": "qhi-knwv-qkm",
                 "start": "09:15",
                 "end": "10:40"
             },
             {
-                "teacher": "ครูจิราภรณ์",
-                "meet_id": "uvv-xruy-vas",
+                "teacher": "ครูทองพูน",
+                "meet_id": "ard-uvni-mei",
                 "start": "11:30",
                 "end": "12:10"
             },
             {
-                "teacher": "ครูประภัส",
-                "meet_id": "atz-xqdu-ezn",
+                "teacher": "ครูสินีนาถ",
+                "meet_id": "kuv-cppa-poz",
                 "start": "12:15",
                 "end": "12:55"
             },
             {
-                "teacher": "ครูสุทธิดา",
-                "meet_id": "eon-fjoy-ztz",
+                "teacher": "ครูกัลยา (ไทย)",
+                "meet_id": "czx-ners-hvy",
                 "start": "13:00",
                 "end": "13:40"
-            },
-            {
-                "teacher": "ครูฝรั่ง 1",
-                "meet_id": "nxd-rpnu-vcx",
-                "start": "13:45",
-                "end": "14:25"
             }
         ]
     }
