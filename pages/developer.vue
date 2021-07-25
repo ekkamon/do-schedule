@@ -14,7 +14,7 @@
           <img src="~/assets/img/developers/ppwdekdok.png" class="rounded-circle shadow" alt="Z4C0N">
           <p class="mt-3 mb-4">Co-Founder & Data Analytic</p>
           <h3><b>Kachathat Kanokpornphat</b></h3>
-          <p>"ไม่จำเป็นต้องมีเพื่อนให้ถึง 100คน แค่มีคนเดียวที่มีค่าเท่ากับ 100คน ก็พอ"</p>
+          <p>"ตำเเหน่งอยู่ไม่นาน ตำนานจะอยู่ตลอดไป"</p>
           <a href="https://www.facebook.com/profile.php?id=100007656370622" class="btn btn-primary">Contact Me</a>
         </div>
       </div>
