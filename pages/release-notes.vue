@@ -16,7 +16,7 @@
                     <li>เพิ่มช่องสามารถดูตารางเรียนของวันอื่นๆได้</li>
                     <li>ทดสอบเซิร์ฟเวอร์ เพื่อรองรับการใช้งานจำนวนมาก (Benchmark Testing)</li>
                 </ul>
-                <small class="text-secondary">Date: 29/07/2021</small>
+                <small class="text-secondary">Date: 25/07/2021</small>
             </div>
         </div>
         <div class="border-bottom mb-3">
