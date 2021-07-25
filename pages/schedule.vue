@@ -34,6 +34,7 @@
             </tr>
           </tbody>
         </table>
+        <p class="text-center text-danger">**หากมีข้อมูลผิดพลาดกรุณาเเจ้งทางเเฟนเพจ</p>
       </div>
     </div>
   </div>
