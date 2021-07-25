@@ -6,13 +6,13 @@
       <div class="col-xl-8">
         <div class="mb-3">
           <select class="form-select form-select-sm" v-model="thisDay" @change="changeDay">
-            <option value="Sunday">วันอาทิตย์</option>
+            <option v-if="thisDay == 'Sunday'" value="Sunday">วันอาทิตย์</option>
             <option value="Monday">วันจันทร์</option>
             <option value="Tuesday">วันอังคาร</option>
             <option value="Wednesday">วันพุธ</option>
             <option value="Thursday">วันพฤหัสบดี</option>
             <option value="Friday">วันศุกร์</option>
-            <option value="Saturday">วันเสาร์</option>
+            <option v-if="thisDay == 'Saturday'" value="Saturday">วันเสาร์</option>
           </select>
         </div>
         <div v-if="loading" class="text-center">
