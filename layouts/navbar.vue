@@ -27,7 +27,7 @@
         </nav>
         <Nuxt />
         <center class="mt-5 mb-5">
-            <p class="text-primary mb-0"><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/doschedule.work" class="text-decoration-none">Do Schedule</a></p>
+            <p class="text-primary mb-0"><i class="fab fa-facebook-square"></i> <a target="_blank" href="https://www.facebook.com/doschedule.co" class="text-decoration-none">Do Schedule</a></p>
             <small>© Copyright 2021 DoSchedule.Work , All Rights Reserved</small>
         </center>
     </div>
