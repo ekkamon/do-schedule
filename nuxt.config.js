@@ -15,7 +15,7 @@ export default {
       { hid: 'og:title', name: 'og:title', content: 'DoSchedule - เว็บไซต์ดูตารางเรียนเเละเข้า Meet อัตโนมัติ' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'https://www.doschedule.co/' },
-      { hid: 'og:image', name: 'og:image', content: '/assets/img/website-banner.png' },
+      { hid: 'og:image', name: 'og:image', content: 'https://www.doschedule.co/assets/img/website-banner.png' },
       { hid: 'og:description', name: 'og:description', content: 'DoSchedule - เว็บไซต์ดูตารางเรียนเเละเข้า Meet อัตโนมัติ' },
     ],
     link: [
