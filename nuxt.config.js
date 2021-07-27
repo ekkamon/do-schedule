@@ -11,12 +11,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'เว็บไซต์ตารางเรียนเเละเข้าห้องเรียน Meet โดยไม่ต้องค้นหา ช่วยให้เข้าเรียนสะดวกขึ้นเเละรวดเร็วขึ้น'}
+      { hid: 'description', name: 'description', content: 'DoSchedule เว็บไซต์ตารางเรียนออนไลน์เข้าเรียน Meet ได้ทันที ไม่ว่าจะโรงเรียนไหนเรายินดีลงตารางเรียนให้ได้ทุกโรงเรียน !'},
+      { hid: 'og:title', name: 'og:title', content: 'DoSchedule - เว็บไซต์ดูตารางเรียนเเละเข้า Meet อัตโนมัติ' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:url', name: 'og:url', content: 'https://www.doschedule.co/' },
+      { hid: 'og:image', name: 'og:image', content: '/assets/img/website-banner.png' },
+      { hid: 'og:description', name: 'og:description', content: 'DoSchedule - เว็บไซต์ดูตารางเรียนเเละเข้า Meet อัตโนมัติ' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/assets/css/bootstrap.min.css' },
-      { rel: 'stylesheet', href: '/assets/font-awesome/css/all.min.css' }
+      { rel: 'stylesheet', href: '/assets/font-awesome/css/all.min.css' },
     ],
     script: [
       { src: '/assets/js/bootstrap.min.js' },
