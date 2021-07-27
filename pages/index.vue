@@ -83,7 +83,6 @@ export default {
       }else{
         localStorage.clear()
       }
-
       if(this.schoolName != ''){
         try{
           var data = await require(`@/assets/schedule_data/${this.schoolName}/${this.roomData[this.schoolName][this.classRoom]}.json`)
