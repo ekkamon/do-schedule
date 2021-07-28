@@ -20,7 +20,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "11:30",
                 "end": "12:10"
@@ -46,7 +46,7 @@
         ],
         "Tuesday": [
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "08:30",
                 "end": "09:10"
@@ -60,8 +60,8 @@
 			{
                 "teacher": "ครูวรัญญา",
                 "meet_id": "ora-ffkm-rrk",
-                "start": "11:30",
-                "end": "12:10"
+                "start": "10:00",
+                "end": "10:40"
             }
         ],
         "Wednesday" : [
@@ -91,7 +91,7 @@
             },
 			{
                 "teacher": "ครูชนิตา",
-                "meet_id": "fug-foro-maj",
+                "meet_id": "cku-udsu-yxj",
                 "start": "12:15",
                 "end": "13:40"
             },
@@ -122,7 +122,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "11:30",
                 "end": "12:10"
@@ -160,7 +160,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "11:30",
                 "end": "12:10"

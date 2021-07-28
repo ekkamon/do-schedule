@@ -8,20 +8,20 @@
                 "end": "09:10"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "09:15",
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "10:00",
                 "end": "10:40"
             },
 			{
                 "teacher": "ครูเกศรา",
-                "meet_id": "cix-pfst-eom",
+                "meet_id": "otk-esvx-xvz",
                 "start": "11:30",
                 "end": "12:55"
             },
@@ -58,7 +58,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "11:30",
                 "end": "12:10"
@@ -70,6 +70,12 @@
                 "meet_id": "mzj-ipsz-kuv",
                 "start": "08:30",
                 "end": "09:10"
+            },
+			{
+                "teacher": "วิชาเลือก",
+                "meet_id": "",
+                "start": "09:15",
+                "end": "10:40"
             },
 			{
                 "teacher": "ครูศศิพร",
@@ -90,7 +96,7 @@
                 "end": "13:40"
             },
 			{
-                "teacher": "ครูกัลยา (คณิต)",
+                "teacher": "ครูกัลยา(คณิต)",
                 "meet_id": "cvk-zzre-jxj",
                 "start": "13:45",
                 "end": "14:25"

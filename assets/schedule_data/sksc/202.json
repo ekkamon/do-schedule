@@ -20,13 +20,13 @@
                 "end": "12:10"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(Eng)",
                 "meet_id": "mxx-mwdu-htm",
                 "start": "12:15",
                 "end": "12:55"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "13:00",
                 "end": "13:40"
@@ -40,13 +40,13 @@
         ],
         "Tuesday": [
 		{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(Eng)",
                 "meet_id": "mxx-mwdu-htm",
                 "start": "08:30",
                 "end": "09:10"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "09:15",
                 "end": "09:55"
@@ -78,7 +78,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(Eng)",
                 "meet_id": "mxx-mwdu-htm",
                 "start": "11:30",
                 "end": "12:10"
@@ -97,7 +97,7 @@
             },
 			{
                 "teacher": "ครูเกศรา",
-                "meet_id": "cix-pfst-eom",
+                "meet_id": "otk-esvx-xvz",
                 "start": "13:45",
                 "end": "15:10"
             }
@@ -116,7 +116,7 @@
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "10:00",
                 "end": "10:40"
@@ -148,7 +148,7 @@
                 "end": "09:10"
             },
 			{
-                "teacher": "ครูเสาวนีย์",
+                "teacher": "ครูเสาวนีย์(สัง)",
                 "meet_id": "rgf-upab-rnp",
                 "start": "09:15",
                 "end": "09:55"
@@ -166,7 +166,7 @@
                 "end": "12:55"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(Eng)",
                 "meet_id": "mxx-mwdu-htm",
                 "start": "13:00",
                 "end": "13:40"
