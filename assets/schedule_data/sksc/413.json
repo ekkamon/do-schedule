@@ -8,14 +8,14 @@
                 "end": "09:10"
             },
 			{
-				"teacher": "ครูวันเพ็ญ",
+				"teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "09:15",
                 "end": "09:55"
             },
 			{
                 "teacher": "ครูนิธิโชติ",
-                "meet_id": "kgp-wxdg-foe",
+                "meet_id": "psx-kguc-mpv",
                 "start": "10:00",
                 "end": "11:25"
             },
@@ -86,13 +86,13 @@
                 "end": "09:10"
             },
 			{
-				"teacher": "ครูธเนศ",
+				"teacher": "ครูธเนศ(คอม)",
                 "meet_id": "hkv-aubh-fym",
                 "start": "09:15",
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "10:00",
                 "end": "10:40"

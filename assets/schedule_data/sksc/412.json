@@ -2,7 +2,7 @@
     {
         "Monday": [
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(คอม)",
                 "meet_id": "hkv-aubh-fym",
                 "start": "08:30",
                 "end": "09:10"
@@ -27,7 +27,7 @@
             },
 			{
                 "teacher": "ครูสรารัตน์",
-                "meet_id": "maw-ctdd-ydk",
+                "meet_id": "vge-ecmr-asb",
                 "start": "12:15",
                 "end": "13:40"
             },
@@ -47,12 +47,12 @@
             },
 			{
 				"teacher": "ครูนิภา",
-                "meet_id": "syb -hevh- myo",
+                "meet_id": "syb-hevh-myo",
                 "start": "09:15",
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "10:00",
                 "end": "10:40"
@@ -96,14 +96,14 @@
                 "end": "12:55"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "13:00",
                 "end": "13:40"
             },
 			{
                 "teacher": "ครูสรารัตน์",
-                "meet_id": "maw-ctdd-ydk",
+                "meet_id": "vge-ecmr-asb",
                 "start": "13:45",
                 "end": "14:25"
             }

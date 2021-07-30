@@ -20,7 +20,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(คอม)",
                 "meet_id": "hkv-aubh-fym",
                 "start": "10:45",
                 "end": "11:25"
@@ -38,8 +38,8 @@
                 "end": "13:40"
             },
 			{
-                "teacher": "ครูธเนศ",
-                "meet_id": "mxx-mwdu-htm ",
+                "teacher": "ครูธเนศ(Eng)",
+                "meet_id": "mxx-mwdu-htm",
                 "start": "13:45",
                 "end": "14:25"
             }
@@ -58,7 +58,7 @@
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(Eng)",
                 "meet_id": "mxx-mwdu-htm ",
                 "start": "10:00",
                 "end": "10:40"
@@ -96,7 +96,7 @@
                 "end": "11:25"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "12:15",
                 "end": "12:55"
@@ -128,7 +128,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "10:45",
                 "end": "11:25"
@@ -167,7 +167,7 @@
             },
 			{
                 "teacher": "ครูนิภา",
-                "meet_id": "syb -hevh- myo",
+                "meet_id": "syb-hevh-myo",
                 "start": "10:45",
                 "end": "11:25"
             },

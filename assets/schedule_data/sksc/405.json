@@ -47,7 +47,7 @@
         "Tuesday": [
 			{
                 "teacher": "ครูประภัส",
-                "meet_id": "atz-xqdu-ezn",
+                "meet_id": "atz-xqdu-ezn"
                 "start": "08:30",
                 "end": "09:10"
             },
@@ -65,7 +65,7 @@
             },
 			{
                 "teacher": "ครูศรัญญา",
-                "meet_id": "kgp-wxdg-foe",
+                "meet_id": "too-yutt-fur",
                 "start": "10:45",
                 "end": "11:25"
             }
@@ -134,7 +134,7 @@
                 "end": "13:40"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(คอม)",
                 "meet_id": "hkv-aubh-fym",
                 "start": "13:45",
                 "end": "14:25"
@@ -149,7 +149,7 @@
             },
 			{
                 "teacher": "ครูศรัญญา",
-                "meet_id": "kgp-wxdg-foe",
+                "meet_id": "too-yutt-fur",
                 "start": "09:15",
                 "end": "09:55"
             },
@@ -161,7 +161,7 @@
             },
 			{
                 "teacher": "ครูประภัส",
-                "meet_id": "atz-xqdu-ezn",
+                "meet_id": "atz-xqdu-ezn"
                 "start": "10:45",
                 "end": "11:25"
             },

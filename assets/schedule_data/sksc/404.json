@@ -14,7 +14,7 @@
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "10:45",
                 "end": "11:25"
@@ -35,7 +35,7 @@
         "Tuesday": [
 			{
                 "teacher": "ครูนิภา",
-                "meet_id": "syb -hevh- myo",
+                "meet_id": "syb-hevh-myo",
                 "start": "08:30",
                 "end": "09:10"
             },
@@ -72,13 +72,13 @@
                 "end": "09:55"
             },
 			{
-                "teacher": "ครูวันเพ็ญ",
+                "teacher": "ครูวันเพ็ญ(สัง)",
                 "meet_id": "maw-ctdd-ydk",
                 "start": "10:00",
                 "end": "10:40"
             },
 			{
-                "teacher": "ครูธเนศ",
+                "teacher": "ครูธเนศ(คอม)",
                 "meet_id": "hkv-aubh-fym",
                 "start": "10:45",
                 "end": "11:25"
