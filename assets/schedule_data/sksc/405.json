@@ -47,7 +47,7 @@
         "Tuesday": [
 			{
                 "teacher": "ครูประภัส",
-                "meet_id": "atz-xqdu-ezn"
+                "meet_id": "atz-xqdu-ezn",
                 "start": "08:30",
                 "end": "09:10"
             },
@@ -161,7 +161,7 @@
             },
 			{
                 "teacher": "ครูประภัส",
-                "meet_id": "atz-xqdu-ezn"
+                "meet_id": "atz-xqdu-ezn",
                 "start": "10:45",
                 "end": "11:25"
             },

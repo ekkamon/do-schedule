@@ -23,6 +23,16 @@
 </template>
 <script>
   export default {
-    layout: 'navbar'
+    layout: 'navbar',
+    data() {
+      return {
+        title: 'Developer - DoSchedule'
+      }
+    },
+    head() {
+      return {
+        title: this.title
+      }
+    }
   }
 </script>
