@@ -32,9 +32,15 @@
                 "end": "12:55"
             },
             {
+                "teacher": "ครูธนสร",
+                "meet_id": "pjf-zbpp-dhb",
+                "start": "13:00",
+                "end": "13:40"
+            },
+            {
                 "teacher": "ครูฐานิตา",
                 "meet_id": "txx-oyvh-btb",
-                "start": "13:00",
+                "start": "13:45",
                 "end": "14:25"
             }
         ],
@@ -80,7 +86,7 @@
             {
                 "teacher": "ครูสุทธิดา",
                 "meet_id": "eon-fjoy-ztz",
-                "start": "11:30",
+                "start": "12:15",
                 "end": "12:55"
             },
             {
