@@ -9,7 +9,7 @@
           </select>
         </div>
         <div class="mb-3">
-          <label class="mb-2">โปรเลือกห้องเรียน</label>
+          <label class="mb-2">โปรดเลือกห้องเรียน</label>
           <select v-model="classRoom" class="form-select mb-2">
             <option v-for="(rm, idx) in roomData[schoolName]" :key="idx" v-bind:value="idx">
               ห้อง {{ rm.toString()[0] }}/{{ rm.toString()[1] != 0 ? rm.toString()[1] + rm.toString()[2] : rm.toString()[2] }}
