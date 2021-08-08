@@ -62,17 +62,23 @@ export default {
     this.loopTime()
   },
   async mounted() {
-    var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
-    this.tables = data[0][this.getDayName()]
     this.thisDay = this.getDayName()
+    
+    try{
+      var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
+      this.tables = data[0][this.getDayName()]
 
-    if(!this.tables){
+      if(!this.tables){
+        this.notfound = true;
+      }else{
+        this.notfound = false;
+      }
+
+      this.loading = false;
+    }catch(err){
       this.notfound = true;
-    }else{
-      this.notfound = false;
+      this.loading = false;
     }
-
-    this.loading = false;
   },
   methods: {
     getDayName(){
