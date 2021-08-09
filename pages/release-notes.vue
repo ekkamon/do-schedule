@@ -4,7 +4,7 @@
             <h3><b>Release Version: v2.0.0</b></h3>
         </center>
         <div class="border-bottom mb-3">
-            <h3 class="mb-3"><b>v2.0.0 (Big Path)</b></h3>
+            <h3 class="mb-3"><b>v2.0.0 (Big Patch)</b></h3>
             <div class="ms-3">
                 <h5 class="text-uppercase"><b>🎲 Updated</b></h5>
                 <ul>
