@@ -24,12 +24,18 @@
           <tbody>
             <tr v-for="(sj, index) in tables" :key="index">
               <td>
-                <p class="mb-0"><b>{{ sj.teacher }}</b></p>
+                <p class="mb-0"><b :class="sj.teacher.indexOf('(MN)') > -1 ? 'text-primary' : ''">{{ sj.teacher }}</b></p>
                 <small>{{ sj.start }} - {{ sj.end }}</small>
               </td>
               <td class="text-center">
-                <a v-if="!isEndClass(sj.end)" :href="sj.meet_id.indexOf('https://') > -1 ? sj.meet_id : `https://meet.google.com/${sj.meet_id}`" target="_blank" class="mt-2 btn btn-primary btn-sm"><i class="fas fa-user-graduate"></i> เข้าเรียน</a>
-                <a v-else :href="sj.meet_id.indexOf('https://') > -1 ? sj.meet_id : `https://meet.google.com/${sj.meet_id}`" target="_blank" class="mt-2 btn btn-secondary btn-sm"><i class="fas fa-business-time"></i> ย้อนหลัง</a>
+                <div v-if="sj.teacher.indexOf('(MN)') <= -1">
+                  <a v-if="!isEndClass(sj.end)" :href="sj.meet_id.indexOf('https://') > -1 ? sj.meet_id : `https://meet.google.com/${sj.meet_id}`" target="_blank" class="mt-2 btn btn-primary btn-sm"><i class="fas fa-user-graduate"></i> เข้าเรียน</a>
+                  <a v-else :href="sj.meet_id.indexOf('https://') > -1 ? sj.meet_id : `https://meet.google.com/${sj.meet_id}`" target="_blank" class="mt-2 btn btn-secondary btn-sm"><i class="fas fa-user-graduate"></i> เข้าเรียน</a>
+                </div>
+                <div v-else>
+                  <a v-if="!isEndClass(sj.end)" @click="copyText(sj.meet_id)" href="https://meet.google.com/" target="_blank" class="mt-2 btn btn-primary btn-sm"><i class="fas fa-user-graduate"></i> เข้าเรียน</a>
+                  <a v-else @click="copyText(sj.meet_id)" href="https://meet.google.com/" target="_blank" class="mt-2 btn btn-secondary btn-sm"><i class="fas fa-user-graduate"></i> เข้าเรียน</a>
+                </div>
               </td>
             </tr>
           </tbody>
@@ -105,7 +111,7 @@ export default {
       setTimeout(() => {
         this.timenow = this.getTime()
         this.loopTime()
-      }, 1500)
+      }, 1000)
     },
     async changeDay(){
       var data = await require(`@/assets/schedule_data/${this.$route.query?.school}/${this.$route.query?.room}.json`)
@@ -118,6 +124,15 @@ export default {
       }
       
       this.loading = false;
+    },
+    copyText(text){
+      let textarea = document.createElement("textarea")
+      textarea.value = text
+      document.body.appendChild(textarea)
+      textarea.focus()
+      textarea.select()
+      document.execCommand("copy")
+      document.body.removeChild(textarea)
     }
   }
 }

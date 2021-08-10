@@ -72,8 +72,8 @@
         ],
         "Wednesday" : [
 			{
-                "teacher": "ครูพัชรวลัย (รอเเก้ไข)",
-                "meet_id": "",
+                "teacher": "ครูพัชรวลัย (MN)",
+                "meet_id": "ava-krow-sjw",
                 "start": "08:30",
                 "end": "09:10"
             },
