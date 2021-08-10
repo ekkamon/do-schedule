@@ -2,8 +2,8 @@
     {
         "Monday": [
 			{
-                "teacher": "ครูสุภพรชัย",
-                "meet_id": "huuoxaaeqv",
+                "teacher": "ครูสุภพรชัย (รอเเก้ไข)",
+                "meet_id": "",
                 "start": "08:30",
                 "end": "09:10"
             },
@@ -40,8 +40,8 @@
         ],
         "Tuesday": [
 			{
-                "teacher": "ครูสุภพรชัย",
-                "meet_id": "huuoxaaeqv",
+                "teacher": "ครูสุภพรชัย (รอเเก้ไข)",
+                "meet_id": "",
                 "start": "08:30",
                 "end": "09:10"
             },
