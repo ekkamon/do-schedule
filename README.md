@@ -1,5 +1,3 @@
-# RohanaMainPage
-
 ## Build Setup
 
 ```bash
